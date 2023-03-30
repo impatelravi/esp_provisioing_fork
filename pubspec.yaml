@@ -14,12 +14,11 @@ dependencies:
   cryptography: ^2.5.0
   collection: ^1.17.0
   location: ^4.4.0
-  flutter_ble_lib_ios_15: ^2.5.2
   #flutter_ble_lib: ^2.3.2
-#  flutter_ble_lib:
-#    git:
-#      url: https://github.com/impatelravi/flutter_ble_lib_fork.git
-#      ref: main
+  flutter_ble_lib:
+    git:
+      url: https://github.com/impatelravi/flutter_ble_lib_fork.git
+      ref: main
 
 
 dev_dependencies:

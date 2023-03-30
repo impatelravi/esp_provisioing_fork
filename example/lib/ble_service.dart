@@ -1,7 +1,7 @@
 import 'dart:async';
 // import 'dart:html';
 import 'dart:io';
-import 'package:flutter_ble_lib_ios_15/flutter_ble_lib.dart';
+import 'package:flutter_ble_lib/flutter_ble_lib.dart';
 import 'package:esp_provisioning/esp_provisioning.dart';
 import 'package:logger/logger.dart';
 import 'package:permission_handler/permission_handler.dart';
