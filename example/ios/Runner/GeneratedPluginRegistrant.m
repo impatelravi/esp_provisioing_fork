@@ -12,10 +12,10 @@
 @import esp_provisioning;
 #endif
 
-#if __has_include(<flutter_ble_lib/FlutterBleLibPlugin.h>)
-#import <flutter_ble_lib/FlutterBleLibPlugin.h>
+#if __has_include(<flutter_ble_lib_ios_15/FlutterBleLibPlugin.h>)
+#import <flutter_ble_lib_ios_15/FlutterBleLibPlugin.h>
 #else
-@import flutter_ble_lib;
+@import flutter_ble_lib_ios_15;
 #endif
 
 #if __has_include(<location/LocationPlugin.h>)

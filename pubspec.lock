@@ -78,15 +78,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_ble_lib:
+  flutter_ble_lib_ios_15:
     dependency: "direct main"
     description:
-      path: "."
-      ref: main
-      resolved-ref: "10a1152a64c287fe72f30ec6a2479e0422a9d73e"
-      url: "https://github.com/impatelravi/flutter_ble_lib_fork.git"
-    source: git
-    version: "2.4.0"
+      name: flutter_ble_lib_ios_15
+      sha256: a1219ebf8923f44b340fdfe10db832bc533ebb9059981d3986197e8a8499e321
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.2"
   flutter_test:
     dependency: "direct dev"
     description: flutter

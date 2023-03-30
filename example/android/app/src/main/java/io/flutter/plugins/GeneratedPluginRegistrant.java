@@ -5,7 +5,6 @@ import androidx.annotation.NonNull;
 import io.flutter.Log;
 
 import io.flutter.embedding.engine.FlutterEngine;
-import io.flutter.embedding.engine.plugins.shim.ShimPluginRegistry;
 
 /**
  * Generated file. Do not edit.
@@ -16,16 +15,15 @@ import io.flutter.embedding.engine.plugins.shim.ShimPluginRegistry;
 public final class GeneratedPluginRegistrant {
   private static final String TAG = "GeneratedPluginRegistrant";
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
-    ShimPluginRegistry shimPluginRegistry = new ShimPluginRegistry(flutterEngine);
     try {
       flutterEngine.getPlugins().add(new com.tuanpm.esp_provisioning.EspProvisioningPlugin());
     } catch(Exception e) {
       Log.e(TAG, "Error registering plugin esp_provisioning, com.tuanpm.esp_provisioning.EspProvisioningPlugin", e);
     }
     try {
-      com.polidea.flutter_ble_lib.FlutterBleLibPlugin.registerWith(shimPluginRegistry.registrarFor("com.polidea.flutter_ble_lib.FlutterBleLibPlugin"));
+      flutterEngine.getPlugins().add(new com.polidea.flutter_ble_lib.FlutterBleLibPlugin());
     } catch(Exception e) {
-      Log.e(TAG, "Error registering plugin flutter_ble_lib, com.polidea.flutter_ble_lib.FlutterBleLibPlugin", e);
+      Log.e(TAG, "Error registering plugin flutter_ble_lib_ios_15, com.polidea.flutter_ble_lib.FlutterBleLibPlugin", e);
     }
     try {
       flutterEngine.getPlugins().add(new com.lyokone.location.LocationPlugin());
